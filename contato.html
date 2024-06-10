@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="corpo">
+        <header id="cabecalho">
+            <a href="home.html"><img src="imagens/carebears_cabecalho.png" id="logomarca"></a>
+            <nav id="menu">
+				<h1>Menu Principal</h1>
+					<ul>
+						<li><a href="home.html"><b>Home</b></a>
+						<li><a href="produtos.html"><b>Produtos</b></a>
+						<li><a href="contato.html"><b>Fale conosco</b></a>
+					</ul>
+			</nav>
+        </header>
+        <divc class="form-container">
+       
+           <form action="mailto:email@email.com" method="post" class="formulario">
+            <h1>Quer receber nossas novidades?</h1>
+            <h2>Inscreva-se na nossa News Letter</h2>
+            <section class="cadastro">
+                <img src="imagens/ursinho-amarelo.png" id="urso-amarelo">
+                <fieldset id="dados-pessoais">
+                        <legend>Dados Pessoais</legend>
+                    <p>
+                        <label for="inome"><b>Nome Completo:</b></label>
+                        <input type="text" name="nome"id="inome" maxlength="50" size="20" placeholder="Seu nome completo" required>
+                    </p>
+                    <p>
+                        <label for="iemail"><b>E-mail:</b></label>
+                        <input type="email" name="email"id="iemail" maxlength="50" size="20" placeholder="Seu e-mail" required>
+                    </p>
+                    <p>
+                        <label for="itelefone"><b>Telefone:</b></label>
+                        <input type="text" name="telefone"id="itelefone" maxlength="50" size="20" placeholder="(00)0000-0000" required>
+                    </p>
+                    
+                </fieldset>
+                <img src="imagens/ursinho-marrom.png" id="urso-marrom">
+                <fieldset id="endereco">
+                    
+                    <legend>Endereço</legend>
+                    <p>
+                        <label for="iinteresse"><b>Estado:</b></label>
+                        <select name="interesse" id="iinteresse">
+                                <option value="">Selecione</option>
+                            <optgroup label="Norte">
+                                <option value="acre">AC</option>
+                                <option value="amapa">AP</option>
+                                <option value="amazonas">AM</option>
+                                <option value="para">PA</option>
+                                <option value="rondonia">RO</option>
+                                <option value="roraima">RR</option>
+                                <option value="tocantins">TO</option>
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                <option value="alagoas">AL</option>
+                                <option value="bahia">BA</option>
+                                <option value="ceara">CE</option>
+                                <option value="maranhao">MA</option>
+                                <option value="paraiba">PB</option>
+                                <option value="pernambuco">PE</option>
+                                <option value="piaui">PI</option>
+                                <option value="rio-grande-norte">RN</option>
+                                <option value="sergipe">SE</option>
+                            </optgroup>
+                            <optgroup label="Centro-Oeste">
+                                <option value="distrito-federal">DF</option>
+                                <option value="goias">GO</option>
+                                <option value="mato-grosso">MT</option>
+                                <option value="mato-grosso-sul">MS</option>
+                            </optgroup>
+                            <optgroup label="Sudeste">
+                                <option value="espirito-santo">ES</option>
+                                <option value="minas-gerais">MG</option>
+                                <option value="rio-de-janeiro">RJ</option>
+                                <option value="sao-paulo">SP</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                <option value="parana">PR</option>
+                                <option value="rio-grande-sul">RS</option>
+                                <option value="santa-catarina">SC</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="icidade"><b>Cidade:</b></label>
+                        <input type="text" name="cidade"id="icidade" maxlength="50" size="20" placeholder="Sua cidade">
+                    </p>
+                    <p>
+                        <label for="ibairro"><b>Bairro:</b></label>
+                        <input type="text" name="bairro"id="ibairro" maxlength="50" size="20" placeholder="Seu bairro">
+                    </p>
+                    <p>
+                        <label for="ilogradouro"><b>Logradouro:</b></label>
+                        <input type="text" name="logradouro"id="ilogradouro" maxlength="50" size="20" placeholder="Logradouro, rua, lote...">
+                    </p>
+                    <p>
+                        <label for="inumero"><b>Número:</b></label>
+                        <input type="number" name="numero"id="inumero" min="0" max="99999" placeholder="Número">
+                    </p>
+                    
+                </fieldset>
+            </section>
+            <section id="opcoes">
+                <p>
+                    <label for="iinteresse"><b>Interesse:</b></label>
+                    <select name="interesse" id="iinteresse">
+                        <option value="">Selecione</option>
+                        <option value="acessórios">Acessórios</option>
+                        <option value="vestuario">Vestuário</option>
+                        <option value="casa">Artigos para o lar</option>
+                        <option value="outros">Outros</option> 
+                    </select>
+                </p>
+                
+            </section>
+            <section id="msg">
+                <p>
+                    <label for="imensagem"><b>Deixe um recado ou sugestão:</b></label>
+                </p>
+                <p>
+                    <textarea id="imensagem" name="mensagem" rows="6" cols="30"></textarea>
+                </p>
+               
+            <p><button type="submit"><b>Enviar Inscrição</b></button></p>
+            </section>
+        </form>
+             
+    </div> 
+        <section class="contato">
+            <nav id="redes-sociais">
+                <h1>Nos siga nas Redes Sociais!</h1> 
+                <ul>
+                    <li><a href="https://www.facebook.com/CareBears"><img src="imagens/facebook.png" class="social-media"></a></li>
+                    <li><a href="https://www.instagram.com/carebears"><img src="imagens/instagram.png" class="social-media"></a></li>
+                    <li><a href="https://www.tiktok.com/@carebearsofficial"><img src="imagens/tiktok.png" class="social-media"></a></li>
+                    <img src="imagens/ursinho-verde.png" id="urso-verde">
+                </ul>
+                
+            </nav>
+       </section>
+    </div>
+
+        <footer id="rodape">
+            <img src="imagens/ursinho-azul.png" id="urso-azul">
+           <b> &copy; Copyright 1981-2024 Ursinhos Carinhosos.</b>
+        </footer>
+    
+</body>
+</html>

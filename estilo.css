@@ -1,0 +1,230 @@
+body {
+    margin: 0;  
+    font-family: arial;
+    font-weight: bold;
+}
+/*home, cabeçalho e rodape*/
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink; 
+    box-shadow: 2px 2px 3px #d57c8b;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+#logomarca {
+    width: 250px; 
+    margin-bottom: 20px;
+}
+
+nav#menu ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #c479d7;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+
+nav#menu li:hover {
+    background-color: #a163b0;
+    transition: background-color 1s;
+
+}
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+
+nav#menu a:hover{
+    color: #d6f0fa;
+    text-shadow: 2px 2px 5px #5dc5e9;
+}
+
+.subtitulo {
+    color: #ed9ba9;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.texto-pag {
+    font-family: arial;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: #c479d7;
+    box-shadow: 3px 3px 3px #d09fea;
+    width: 80%;
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#ursa-rosa {
+    width: 200px;
+    position: absolute;
+    top: 420px;
+    right: 50px;
+}
+
+#ursa-roxa {
+    width: 290px;
+    position: absolute;
+    top: 420px;
+    left: 20px;
+}
+#urso-azul {
+    width: 100px;
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    }
+    
+#rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c479d7; 
+    padding: 15px 0;
+    position: relative; 
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/*produtos*/
+.trio-de-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    width: 70%;
+    align-content: center;
+}
+
+.produto {
+    width: 30%;
+    border: 2px solid #ed9ba9;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: #4b9bcd;
+    font-size: 17px;
+}
+
+.produto img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produto a {
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #f5b070;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.produto a:hover {
+    background-color: #fd9744;
+    transition: 1s;
+}
+/*fale conosco*/
+nav#redes-sociais h1{
+    color: #ed9ba9;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+nav#redes-sociais ul {
+    list-style-type: none; 
+}
+
+nav#redes-sociais ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+}
+
+nav#redes-sociais li {
+    margin: 0 10px;
+}
+
+nav#redes-sociais img.social-media {
+    width: 100px;
+}
+
+#urso-verde{
+    width: 100px;
+    position: static;
+}
+.formulario{
+    text-align: center;
+    display: inline-block;
+    background-color: #c479d7;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario textarea{
+    resize: none;
+}
+.formulario button{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f5b070;
+    border-radius: 10px;
+}
+.formulario button:hover{
+   
+    background-color: #fd9744;
+    transition: background-color 1s;
+}
+
+#urso-amarelo{
+    width: 65px;
+    position: static;
+}
+
+#urso-marrom{
+    width: 55px;
+    position: static;
+    padding: 10px;
+}
+
+
+
